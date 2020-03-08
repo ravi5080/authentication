@@ -22,7 +22,7 @@ class HomePage extends React.Component {
             <div>
                 <h1>Hi {currentUser.firstName}!</h1>
                 <p>You're logged in with React & JWT!!</p>
-                <h3>Users from secure api end point:</h3>
+                <h3>Users from secure api end Point:</h3>
                 {users &&
                     <ul>
                         {users.map(user =>
